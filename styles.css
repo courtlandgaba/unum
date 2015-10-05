@@ -1,0 +1,138 @@
+body {
+  background-color: #EEEEEE;
+  margin: 0px;
+}
+
+.navbar {
+  height: 90px;
+  width: 100%;
+  background: rgba(48,129,169,1);
+  background: -moz-linear-gradient(top, rgba(48,129,169,1) 0%, rgba(48,166,206,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(48,129,169,1)), color-stop(100%, rgba(48,166,206,1)));
+  background: -webkit-linear-gradient(top, rgba(48,129,169,1) 0%, rgba(48,166,206,1) 100%);
+  background: -o-linear-gradient(top, rgba(48,129,169,1) 0%, rgba(48,166,206,1) 100%);
+  background: -ms-linear-gradient(top, rgba(48,129,169,1) 0%, rgba(48,166,206,1) 100%);
+  background: linear-gradient(to bottom, rgba(48,129,169,1) 0%, rgba(48,166,206,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3081a9', endColorstr='#30a6ce', GradientType=0 );
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  -webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.30);
+  -moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.30);
+  box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.30);
+  margin: 15px 0;
+}
+
+.nav {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.navbar .nav li {
+  list-style: none;
+  display: inline-block;
+  width: 217px;
+  text-align: center;
+  border-right: 1px solid #7AC3E6;
+  border-left: 1px solid #30779B;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  list-style: none;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navbar .nav li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav li a {
+  color: white;
+  font-family: 'Tienne';
+  font-size: 28px;
+  text-shadow: 1px 1px black;
+  text-decoration: none;
+  width: 100%;
+}
+
+.wrapper {
+  margin: 0 170px;
+}
+
+h1 {
+  color: #323232;
+  font-family: 'Tienne';
+  font-size: 60px;
+  text-shadow: 3px 3px white;
+  margin-bottom: 0px;
+  font-weight: bold;
+  display: inline-block;
+
+}
+
+h2 {
+  color: #A7A7AB;
+  font-family: 'Tienne';
+  font-size: 22px;
+  text-shadow: 1px 1px white;
+  font-style: italic;
+  margin-top: 4px;
+}
+
+h3 {
+  color: #37372E;
+  font-family: 'Tienne';
+  font-size: 30px;
+  margin: 0 0 15px 0;
+  font-weight: bold;
+}
+
+p {
+  color: #424755;
+  font-family: 'Tienne';
+  font-size: 17px;
+  margin-top: 0;
+}
+
+li {
+  color: #424755;
+  font-family: 'Tienne';
+  font-size: 17px;
+}
+
+#bird {
+  float: right;
+  margin-top: 40px;
+}
+
+.section {
+  border-bottom: 1px solid white;
+  box-shadow: inset 5px -22px 0px -21px rgba(212,212,212,1);
+  margin-bottom: 25px;
+}
+
+.flexslider {
+  width: 650px;
+  display: inline-block;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+}
+
+aside {
+  display: inline-block;
+  width: 400px;
+  float: right;
+}
+
+.third {
+  display: inline-block;
+  width: 32.33%;
+  height: 190px;
+}
+
+#cow {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+}
